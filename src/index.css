@@ -1,0 +1,17 @@
+@import './assets/styles/normalize.css';
+/*@import './assets/styles/custom-media.css';*/
+/*@import './assets/styles/utilities.css';*/
+@import './assets/styles/main.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
