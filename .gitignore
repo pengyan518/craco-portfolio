@@ -6,3 +6,4 @@ workspace.xml
 .idea
 /.yarn
 /yarn.lock
+dist/
