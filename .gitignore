@@ -7,3 +7,4 @@ workspace.xml
 /.yarn
 /yarn.lock
 dist/
+/build

@@ -27,26 +27,11 @@ const Navigation: React.FC = memo(() => {
 
   const dispatch = useDispatch()
 
-  // const handleLoadMore = useCallback(() => {
-  //   // setTimeout(() => {
-  //     page.current += 1
-  //     // @ts-ignore
-  //     dispatch(fetchInitial(page.current))
-  //   // }, 500)
-  // }, [dispatch])
-  //
-  // useEffect(() => {
-  //   if (latest.length === 0) {
-  //     // @ts-ignore
-  //     dispatch(fetchInitial(page.current))
-  //   }
-  //   return () => {}
-  // }, [dispatch, latest, page])
 
   return (
     <>
       <div className="bg-white col-span-4">
-       <header>Peng Yan</header>
+       <header>__Shen Yun__</header>
         <ul>
           <li><a href="">Works</a></li>
           <li><a href="">About</a></li>
