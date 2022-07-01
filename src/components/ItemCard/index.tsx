@@ -19,13 +19,12 @@ interface IProps {
   // ...
 }
 
-const ItemCard: React.FC<IProps> = memo(({item, showCategoryTag}) => {
+const ItemCard: React.FC<IProps> = memo(({item}) => {
   // const [pushedSeatsDom, setPushedSeatsDom] = useState(false)
   const {isDrawerOpened, translation} = useSelector((state: RootState) => state.main)
-  const {originalLink, nameDisplay, length, id, categoryDisplay} = item
-  const {name, termId} = categoryDisplay
-  const categoryName = name.split('|')[translation.langCode === 'en-us' ? 0 : 1]
-  const categoryIndex = config.categoryTerm.findIndex(value=>value[0].includes(termId))
+  const {caption, src, id} = item
+  // const {name, termId} = categoryDisplay
+
 
   const dispatch = useDispatch()
 
@@ -40,12 +39,9 @@ const ItemCard: React.FC<IProps> = memo(({item, showCategoryTag}) => {
     <div className="w-full relative cursor-pointer">
       <div className="w-full aspect-[18/10] relative cursor-pointer" onClick={openArticle} >
         {/*  @ts-ignore */}
-        <LazyLoadImage className="absolute object-cover inset-0 w-full h-full" src={originalLink} alt={nameDisplay} effect="blur" />
-        {length && <div className="absolute bottom-0 right-0 bg-slate-600 text-white px-3 py-1 text-sm font-medium">{length}</div>}
+        <LazyLoadImage className="absolute object-cover inset-0 w-full h-full" src={src}  effect="blur" />
       </div>
-      <div className="line-clamp-3 mt-2 leading-5 hover:text-sky-700" onClick={openArticle}>{nameDisplay}</div>
-      {/*  @ts-ignore */}
-      {showCategoryTag && <a className="text-xs uppercase font-semibold text-sky-600 pt-2 hover:text-sky-900" href={config.categoryTerm[categoryIndex][2]}>{categoryName.trim()}</a>}
+      <div className="line-clamp-3 mt-2 leading-5 hover:text-sky-700" onClick={openArticle}>{caption}</div>
     </div>
   )
 })

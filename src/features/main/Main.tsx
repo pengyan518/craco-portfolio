@@ -15,6 +15,7 @@ import Loading from '../../components/Loading'
 import config from "../../config";
 import Navigation from "../../components/Navigation";
 import WorksGrid from "../../components/WorksGrid";
+import About from "../../components/About";
 
 // import ControlPanel from '../controlPanel/ControlPanel'
 // import SeatingChart from '../../components/SeatingChart'
@@ -22,7 +23,7 @@ import WorksGrid from "../../components/WorksGrid";
 const Main: React.FC = () => {
 
   const [latestTab, setLatestTab] = useState(true)
-  const {isDrawerOpened, translation, loading, loginInfo, loadingInitial, loginDialogStatus} = useSelector((state: RootState) => state.main)
+  const {active, loading} = useSelector((state: RootState) => state.navigation)
   // const error = useSelector((state: RootState) => state.main.error)
 
   const dispatch = useDispatch()
@@ -35,9 +36,10 @@ const Main: React.FC = () => {
       {loading ? (
         <Loading height="100vh" width="100%" color="#1976d2" />
       ) : (
-        <div className="grid grid-cols-12">
+        <div className="grid grid-cols-12 py-20">
           <Navigation />
-          <WorksGrid />
+          {active==='works' && <WorksGrid />}
+          {active==='about' && <About />}
         </div>
       )}
     </>

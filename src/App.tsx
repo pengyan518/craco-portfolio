@@ -9,8 +9,8 @@ import store from './store'
 import bg from './assets/img/medialibrary-top-banner-bg.jpg'
 
 const Container = styled.div`
-  background-color: #a6eaff;
-  background-image: url(${bg});
+  background-color: #f1f1f1;
+  //background-image: url(${bg});
   min-height: 100vh;
   //display: flex;
   //flex-direction: column;

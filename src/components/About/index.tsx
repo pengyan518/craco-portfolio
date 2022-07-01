@@ -11,7 +11,6 @@ import {fetchInitial} from './LatestSlice'
 import ItemCard from '../ItemCard'
 // import useIntersect from '../../hooks/useIntersect'
 import Loading from '../Loading'
-import {mediaByIndex,theaters} from "../../assets/media";
 
 // interface IProps {
 //   data: any
@@ -19,7 +18,7 @@ import {mediaByIndex,theaters} from "../../assets/media";
 //   // ...
 // }
 
-const WorksGrid: React.FC = memo(() => {
+const About: React.FC = memo(() => {
   // const [pushedSeatsDom, setPushedSeatsDom] = useState(false)
   // const [page, setPage] = useState(1)
   const {latest, loading} = useSelector((state: RootState) => state.latest)
@@ -48,13 +47,14 @@ const WorksGrid: React.FC = memo(() => {
 
   return (
     <>
-      <div className="col-span-7 min-h-screen">
-        <div className="grid grid-cols-2 gap-x-4 md:gap-x-4 xl:gap-x-6 2xl:gap-x-10 gap-y-8 md:grid-cols-3 xl:grid-cols-3 auto-rows-auto">
-           {theaters &&
-            theaters.map(item => {
-              const {id} = item
-              return <ItemCard key={id} item={item} />
-            })}
+      <div className="col-span-8 min-h-screen">
+        <div className="grid grid-cols-2 gap-x-4 md:gap-x-4 xl:gap-x-6 2xl:gap-x-10 gap-y-8 md:grid-cols-3 xl:grid-cols-4 auto-rows-auto">
+          {/* {latest && */}
+          {/*  latest.map(item => { */}
+          {/*    const {id} = item */}
+          {/*    return <ItemCard key={id} item={item} showCategoryTag /> */}
+          {/*  })} */}
+          about
         </div>
 
       </div>
@@ -62,5 +62,5 @@ const WorksGrid: React.FC = memo(() => {
   )
 })
 
-export default WorksGrid
-WorksGrid.displayName = 'WorksGrid'
+export default About
+About.displayName = 'About'

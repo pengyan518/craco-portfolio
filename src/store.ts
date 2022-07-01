@@ -5,12 +5,14 @@ import mainReducer from './features/main/MainSlice'
 import latestReducer from './components/Latest/LatestSlice'
 import categoryReducer from './components/Category/CategorySlice'
 import articleReducer from './components/Article/ArticleSlice'
+import navigationReducer from './components/Navigation/NavigationSlice'
 
 export const rootReducer = combineReducers({
   main: mainReducer,
   latest: latestReducer,
   category: categoryReducer,
   article: articleReducer,
+  navigation: navigationReducer,
 })
 
 const store = configureStore({

@@ -7,7 +7,7 @@ import {RootState} from 'store'
 
 // import axios from 'axios'
 // import config from 'config'
-import {fetchInitial} from './LatestSlice'
+import {fetchInitial, setFocusArea} from './NavigationSlice'
 import ItemCard from '../ItemCard'
 // import useIntersect from '../../hooks/useIntersect'
 import Loading from '../Loading'
@@ -26,17 +26,24 @@ const Navigation: React.FC = memo(() => {
   const page = useRef(1)
 
   const dispatch = useDispatch()
-
+  const handleClick = useCallback(area => () => dispatch(setFocusArea(area)), [dispatch])
 
   return (
     <>
-      <div className="bg-white col-span-4">
-       <header>__Shen Yun__</header>
+      <div className="col-span-4">
+        <header>__Shen Yun__</header>
         <ul>
-          <li><a href="">Works</a></li>
-          <li><a href="">About</a></li>
+          <li>
+            <a className="cursor-pointer" onClick={handleClick('works')}>
+              Works
+            </a>
+          </li>
+          <li>
+            <a className="cursor-pointer" onClick={handleClick('about')}>
+              About
+            </a>
+          </li>
         </ul>
-
       </div>
     </>
   )
