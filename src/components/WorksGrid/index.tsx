@@ -27,21 +27,21 @@ const WorksGrid: React.FC = memo(() => {
 
   const dispatch = useDispatch()
 
-  const handleLoadMore = useCallback(() => {
-    // setTimeout(() => {
-      page.current += 1
-      // @ts-ignore
-      dispatch(fetchInitial(page.current))
-    // }, 500)
-  }, [dispatch])
-
-  useEffect(() => {
-    if (latest.length === 0) {
-      // @ts-ignore
-      dispatch(fetchInitial(page.current))
-    }
-    return () => {}
-  }, [dispatch, latest, page])
+  // const handleLoadMore = useCallback(() => {
+  //   // setTimeout(() => {
+  //     page.current += 1
+  //     // @ts-ignore
+  //     dispatch(fetchInitial(page.current))
+  //   // }, 500)
+  // }, [dispatch])
+  //
+  // useEffect(() => {
+  //   if (latest.length === 0) {
+  //     // @ts-ignore
+  //     dispatch(fetchInitial(page.current))
+  //   }
+  //   return () => {}
+  // }, [dispatch, latest, page])
 
 
 
