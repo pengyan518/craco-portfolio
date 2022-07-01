@@ -1,14 +1,29 @@
 {
   "files": {
-    "main.css": "/craco-portfolio/static/css/main.30a278f6.css",
-    "main.js": "/craco-portfolio/static/js/main.6e0e9350.js",
+    "main.css": "/craco-portfolio/static/css/main.9078edf5.css",
+    "main.js": "/craco-portfolio/static/js/main.8d6ce086.js",
+    "static/media/sy-citypage-theater-07.jpg": "/craco-portfolio/static/media/sy-citypage-theater-07.9d489ffaaa21c90df691.jpg",
+    "static/media/sy-citypage-theater-01.jpg": "/craco-portfolio/static/media/sy-citypage-theater-01.2e82da711090af836023.jpg",
+    "static/media/sy-citypage-theater-04.jpg": "/craco-portfolio/static/media/sy-citypage-theater-04.676e020d343987b7f86e.jpg",
+    "static/media/sy-citypage-theater-03.jpg": "/craco-portfolio/static/media/sy-citypage-theater-03.446caef257ebfbfc2dce.jpg",
+    "static/media/sy-citypage-theater-05.jpg": "/craco-portfolio/static/media/sy-citypage-theater-05.b49e56c501366cdc6f80.jpg",
+    "static/media/sy-citypage-theater-08.jpg": "/craco-portfolio/static/media/sy-citypage-theater-08.1fd7eaae7c46225e7f81.jpg",
+    "static/media/sy-citypage-theater-02.jpg": "/craco-portfolio/static/media/sy-citypage-theater-02.dcf0e9196674564fe6c6.jpg",
+    "static/media/sy-citypage-theater-09.jpg": "/craco-portfolio/static/media/sy-citypage-theater-09.976de35915647e373b57.jpg",
+    "static/media/sy-citypage-theater-06.jpg": "/craco-portfolio/static/media/sy-citypage-theater-06.43a4bd295b8cf2461963.jpg",
+    "static/media/slideshow-thumb-1.jpg": "/craco-portfolio/static/media/slideshow-thumb-1.fc1776e38e3bc4f52ce8.jpg",
+    "static/media/slideshow-thumb-4.jpg": "/craco-portfolio/static/media/slideshow-thumb-4.7bc133e60a3f7e3a229f.jpg",
+    "static/media/slideshow-thumb-2.jpg": "/craco-portfolio/static/media/slideshow-thumb-2.e0c491bce1e38a26c67d.jpg",
+    "static/media/slideshow-thumb-6.jpg": "/craco-portfolio/static/media/slideshow-thumb-6.2d39c19a5d702b6c39d3.jpg",
+    "static/media/slideshow-thumb-3.jpg": "/craco-portfolio/static/media/slideshow-thumb-3.57a6d8d291ce82d52866.jpg",
+    "static/media/slideshow-thumb-5.jpg": "/craco-portfolio/static/media/slideshow-thumb-5.94bc55adbbea119595fd.jpg",
     "static/media/medialibrary-top-banner-bg.jpg": "/craco-portfolio/static/media/medialibrary-top-banner-bg.120f32e1420770274c79.jpg",
     "index.html": "/craco-portfolio/index.html",
-    "main.30a278f6.css.map": "/craco-portfolio/static/css/main.30a278f6.css.map",
-    "main.6e0e9350.js.map": "/craco-portfolio/static/js/main.6e0e9350.js.map"
+    "main.9078edf5.css.map": "/craco-portfolio/static/css/main.9078edf5.css.map",
+    "main.8d6ce086.js.map": "/craco-portfolio/static/js/main.8d6ce086.js.map"
   },
   "entrypoints": [
-    "static/css/main.30a278f6.css",
-    "static/js/main.6e0e9350.js"
+    "static/css/main.9078edf5.css",
+    "static/js/main.8d6ce086.js"
   ]
 }
