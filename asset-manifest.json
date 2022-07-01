@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/craco-portfolio/static/css/main.30a278f6.css",
+    "main.js": "/craco-portfolio/static/js/main.25dec06a.js",
+    "static/media/medialibrary-top-banner-bg.jpg": "/craco-portfolio/static/media/medialibrary-top-banner-bg.120f32e1420770274c79.jpg",
+    "index.html": "/craco-portfolio/index.html",
+    "main.30a278f6.css.map": "/craco-portfolio/static/css/main.30a278f6.css.map",
+    "main.25dec06a.js.map": "/craco-portfolio/static/js/main.25dec06a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30a278f6.css",
+    "static/js/main.25dec06a.js"
+  ]
+}
