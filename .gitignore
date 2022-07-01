@@ -5,3 +5,5 @@ yarn-error.log
 workspace.xml
 .DS_Store
 .idea
+/.yarn
+/yarn.lock
