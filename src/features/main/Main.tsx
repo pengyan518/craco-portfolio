@@ -13,7 +13,6 @@ import Search from '../../components/Search'
 import Header from '../../components/Header'
 import Loading from '../../components/Loading'
 import config from "../../config";
-import Login from "../../components/Login"
 import Navigation from "../../components/Navigation";
 import WorksGrid from "../../components/WorksGrid";
 
