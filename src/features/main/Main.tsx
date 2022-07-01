@@ -16,6 +16,7 @@ import config from "../../config";
 import Navigation from "../../components/Navigation";
 import WorksGrid from "../../components/WorksGrid";
 import About from "../../components/About";
+import Me from "../../components/Me";
 
 // import ControlPanel from '../controlPanel/ControlPanel'
 // import SeatingChart from '../../components/SeatingChart'
@@ -36,8 +37,9 @@ const Main: React.FC = () => {
       {loading ? (
         <Loading height="100vh" width="100%" color="#1976d2" />
       ) : (
-        <div className="grid grid-cols-12 py-20">
+        <div className="grid grid-cols-1 p-4 md:grid-cols-12 md:py-20">
           <Navigation />
+          {active==='me' && <Me />}
           {active==='works' && <WorksGrid />}
           {active==='about' && <About />}
         </div>

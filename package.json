@@ -81,9 +81,7 @@
     "test:coverage": "yarn test --watchAll false --coverage",
     "lint": "tsc --noEmit && eslint '*/**/*.{ts,tsx}'",
     "lint:fix": "yarn lint --quiet --fix",
-    "postbuild": "npm-run-all clean copy",
     "copy": "cpy build{/**/*,*}.{js,css,html,json,png,svg,jpg,map} ../skycms/public/",
-    "clean": "del \"../skycms/public/static/\" --force",
     "b": "npm-run-all build",
     "w": "nodemon --watch src/ --ext js,jsx,ts,tsx,pcss,css,scss,html,svg --exec npm-run-all build"
   },

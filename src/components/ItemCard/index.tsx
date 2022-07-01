@@ -22,7 +22,7 @@ interface IProps {
 const ItemCard: React.FC<IProps> = memo(({item}) => {
   // const [pushedSeatsDom, setPushedSeatsDom] = useState(false)
   const {isDrawerOpened, translation} = useSelector((state: RootState) => state.main)
-  const {caption, src, id} = item
+  const {caption, src, id, url} = item
   // const {name, termId} = categoryDisplay
 
 
@@ -36,13 +36,13 @@ const ItemCard: React.FC<IProps> = memo(({item}) => {
   }, [dispatch, id, isDrawerOpened])
 
   return (
-    <div className="w-full relative cursor-pointer">
-      <div className="w-full aspect-[18/10] relative cursor-pointer" onClick={openArticle} >
+    <a className="w-full relative cursor-pointer" href={url} target="_blank" rel="noreferrer">
+      <div className="w-full shadow-md rounded aspect-[18/16] relative cursor-pointer hover:opacity-50 transition-opacity">
         {/*  @ts-ignore */}
-        <LazyLoadImage className="absolute object-cover inset-0 w-full h-full" src={src}  effect="blur" />
+        <LazyLoadImage className="rounded absolute object-cover inset-0 w-full h-full" src={src} effect="blur" />
       </div>
       <div className="line-clamp-3 mt-2 leading-5 hover:text-sky-700" onClick={openArticle}>{caption}</div>
-    </div>
+    </a>
   )
 })
 

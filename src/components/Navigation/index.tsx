@@ -21,7 +21,7 @@ import Loading from '../Loading'
 const Navigation: React.FC = memo(() => {
   // const [pushedSeatsDom, setPushedSeatsDom] = useState(false)
   // const [page, setPage] = useState(1)
-  const {latest, loading} = useSelector((state: RootState) => state.latest)
+  const {active} = useSelector((state: RootState) => state.navigation)
   const {translation} = useSelector((state: RootState) => state.main)
   const page = useRef(1)
 
@@ -31,14 +31,14 @@ const Navigation: React.FC = memo(() => {
   return (
     <>
       <div className="col-span-4">
-        <header>__Shen Yun__</header>
+        <header className={`cursor-pointer font-bold ${active==='works'?'active':'opacity-70'}`} onClick={handleClick('me')}>__Shen Yun__</header>
         <ul>
-          <li>
+          <li className={active==='works'?'active':'opacity-70'}>
             <a className="cursor-pointer" onClick={handleClick('works')}>
               Works
             </a>
           </li>
-          <li>
+          <li className={active==='about'?'active':'opacity-70'}>
             <a className="cursor-pointer" onClick={handleClick('about')}>
               About
             </a>

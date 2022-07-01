@@ -5,8 +5,8 @@ import media4 from './slideshow-thumb-4.jpg'
 import media5 from './slideshow-thumb-5.jpg'
 import media6 from './slideshow-thumb-6.jpg'
 
-import theater1 from './sy-citypage-theater-01.jpg'
-import theater2 from './sy-citypage-theater-02.jpg'
+import theater1 from './wn.jpg'
+import theater2 from './ourStory.jpg'
 import theater3 from './sy-citypage-theater-03.jpg'
 import theater4 from './sy-citypage-theater-04.jpg'
 import theater5 from './sy-citypage-theater-05.jpg'
@@ -22,12 +22,14 @@ export const theaters = [
   {
     id: 1,
     src: theater1,
-    caption: 'Lincoln Center, New York',
+    caption: 'Shen Yun Whats New Page',
+    url: 'https://www.shenyun.org/news-reviews',
   },
   {
     id: 2,
     src: theater2,
-    caption: 'Kennedy Center, Washington, DC',
+    caption: 'Shen Yun Our Story Page',
+    url: 'https://www.shenyun.org/our-story',
   },
   {
     id: 3,
