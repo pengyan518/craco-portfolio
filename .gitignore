@@ -1,6 +1,5 @@
 node_modules/
 coverage/
-build/
 yarn-error.log
 workspace.xml
 .DS_Store
