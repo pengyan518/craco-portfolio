@@ -18,8 +18,8 @@ const Video: React.FC = () => {
   // const [pushedSeatsDom, setPushedSeatsDom] = useState(false)
   // const {originalLink, linkHighlighted, nameDisplay, length, id} = item
   // const {articleId} = useSelector((state: RootState) => state.main)
-  const {articleData, loading} = useSelector((state: RootState) => state.article)
-  const {breadcrumb, item, itemsRelated, title, mediaLink} = articleData
+  // const {articleData, loading} = useSelector((state: RootState) => state.article)
+  // const {breadcrumb, item, itemsRelated, title, mediaLink} = articleData
   // const dispatch = useDispatch()
 
   const playerRef = useRef(null)
@@ -38,7 +38,7 @@ const Video: React.FC = () => {
         },
       ],
     }),
-    [mediaLink]
+    []
   )
 
   const handlePlayerReady = player => {
@@ -57,7 +57,7 @@ const Video: React.FC = () => {
     <>
       <div className="w-full 2xl:px-12">
         <div className="aspect-video">
-          <VideoJS options={videoJsOptions(mediaLink)} onReady={handlePlayerReady} />
+          <VideoJS options={videoJsOptions('')} onReady={handlePlayerReady} />
         </div>
       </div>
     </>

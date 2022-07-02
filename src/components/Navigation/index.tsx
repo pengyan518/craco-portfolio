@@ -36,7 +36,7 @@ const Navigation: React.FC = memo(() => {
           <header
             className={`text-lg cursor-pointer font-bold ${active === 'works' ? 'active' : 'opacity-70'}`}
             onClick={handleClick('me')}>
-            PENG YAN
+            {/* PENG YAN */}
           </header>
 
           <div className="flex md:hidden">

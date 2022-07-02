@@ -49,7 +49,7 @@ const WorksGrid: React.FC = memo(() => {
   return (
     <>
       <div className="col-span-7 min-h-screen">
-        <div className="grid grid-cols-2 gap-x-4 md:gap-x-4 xl:gap-x-6 2xl:gap-x-10 gap-y-8 md:grid-cols-3 xl:grid-cols-3 auto-rows-auto">
+        <div className="grid grid-cols-2 gap-x-4 md:gap-x-4 xl:gap-x-6 2xl:gap-x-10 gap-y-8 md:grid-cols-2 xl:grid-cols-3 auto-rows-auto">
            {theaters &&
             theaters.map(item => {
               const {id} = item

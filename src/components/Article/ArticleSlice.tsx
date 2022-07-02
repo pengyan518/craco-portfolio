@@ -7,13 +7,13 @@ import config from '../../config'
 interface InitialState {
   loading: boolean
   error: string | null
-  articleData: any
+  articleId: string | null
 }
 
 export const initialState: InitialState = {
   loading: false,
   error: null,
-  articleData: null,
+  articleId: null,
 }
 
 // type InitialData = {
@@ -37,24 +37,27 @@ export const mySlice = createSlice({
   initialState,
   reducers: {
     cleanArticle: (state)=>{
-      state.articleData = null
+      state.articleId = null
+    },
+    setArticle: (state, action)=>{
+      state.articleId = action.payload
     }
   },
-  extraReducers: {
-    [fetchArticle.pending.type]: state => {
-      state.loading = true
-    },
-    [fetchArticle.fulfilled.type]: (state, action) => {
-      state.articleData = action.payload
-      state.loading = false
-    },
-    [fetchArticle.rejected.type]: (state, action) => {
-      state.error = action.payload
-      state.loading = false
-    },
-  },
+  // extraReducers: {
+  //   [fetchArticle.pending.type]: state => {
+  //     state.loading = true
+  //   },
+  //   [fetchArticle.fulfilled.type]: (state, action) => {
+  //     state.articleData = action.payload
+  //     state.loading = false
+  //   },
+  //   [fetchArticle.rejected.type]: (state, action) => {
+  //     state.error = action.payload
+  //     state.loading = false
+  //   },
+  // },
 })
 
-export const {cleanArticle} = mySlice.actions
+export const {cleanArticle, setArticle} = mySlice.actions
 
 export default mySlice.reducer
