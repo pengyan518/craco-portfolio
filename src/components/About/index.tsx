@@ -43,20 +43,22 @@ const About: React.FC = memo(() => {
   //   return () => {}
   // }, [dispatch, latest, page])
 
-
-
   return (
     <>
-      <div className="col-span-8 min-h-screen">
-        <div className="grid grid-cols-2 gap-x-4 md:gap-x-4 xl:gap-x-6 2xl:gap-x-10 gap-y-8 md:grid-cols-3 xl:grid-cols-4 auto-rows-auto">
+      <div className="col-span-7 min-h-screen">
+        <div className="grid grid-cols-2 gap-x-4 md:gap-x-4 xl:gap-x-6 2xl:gap-x-10 gap-y-8 auto-rows-auto">
           {/* {latest && */}
           {/*  latest.map(item => { */}
           {/*    const {id} = item */}
           {/*    return <ItemCard key={id} item={item} showCategoryTag /> */}
           {/*  })} */}
-          about
+          <div className="col-span-2">
+            {/* <img src="//live.staticflickr.com/65535/52183654588_280cfa8886_h.jpg" alt="" /> */}
+            <img src="//live.staticflickr.com/65535/50370000163_db0eb14e69_h.jpg" alt="" />
+          </div>
+          <div className="">Contact</div>
+          <div className="">about</div>
         </div>
-
       </div>
     </>
   )
