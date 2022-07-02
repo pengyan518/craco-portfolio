@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/craco-portfolio/static/css/main.9f3b3fed.css",
-    "main.js": "/craco-portfolio/static/js/main.e26f9fad.js",
+    "main.css": "/craco-portfolio/static/css/main.f95185d5.css",
+    "main.js": "/craco-portfolio/static/js/main.0e1ea924.js",
     "static/media/ourStory.jpg": "/craco-portfolio/static/media/ourStory.6dffe2ea585d069233bb.jpg",
     "static/media/wn.jpg": "/craco-portfolio/static/media/wn.c8dbf6e572f55fa54d16.jpg",
     "static/media/sy-citypage-theater-07.jpg": "/craco-portfolio/static/media/sy-citypage-theater-07.9d489ffaaa21c90df691.jpg",
@@ -19,11 +19,11 @@
     "static/media/slideshow-thumb-5.jpg": "/craco-portfolio/static/media/slideshow-thumb-5.94bc55adbbea119595fd.jpg",
     "static/media/medialibrary-top-banner-bg.jpg": "/craco-portfolio/static/media/medialibrary-top-banner-bg.120f32e1420770274c79.jpg",
     "index.html": "/craco-portfolio/index.html",
-    "main.9f3b3fed.css.map": "/craco-portfolio/static/css/main.9f3b3fed.css.map",
-    "main.e26f9fad.js.map": "/craco-portfolio/static/js/main.e26f9fad.js.map"
+    "main.f95185d5.css.map": "/craco-portfolio/static/css/main.f95185d5.css.map",
+    "main.0e1ea924.js.map": "/craco-portfolio/static/js/main.0e1ea924.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f3b3fed.css",
-    "static/js/main.e26f9fad.js"
+    "static/css/main.f95185d5.css",
+    "static/js/main.0e1ea924.js"
   ]
 }
