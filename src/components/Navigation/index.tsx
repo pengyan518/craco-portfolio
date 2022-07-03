@@ -34,8 +34,7 @@ const Navigation: React.FC = memo(() => {
       <div className="col-span-4 md:px-6 relative">
         <div className="flex justify-between items-center pb-4">
           <header
-            className={`text-lg cursor-pointer font-black ${active === 'works' ? 'active' : 'opacity-70'}`}
-            onClick={handleClick('me')}>
+            className={`text-lg font-black`}>
              PENG YAN
           </header>
 
