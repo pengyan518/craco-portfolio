@@ -8,7 +8,7 @@ import media6 from './slideshow-thumb-6.jpg'
 import img0 from './9c.jpg'
 import theater1 from './wn.jpg'
 import theater2 from './ourStory.jpg'
-import theater3 from './sy-citypage-theater-03.jpg'
+import sycom from './sycom.jpg'
 import theater4 from './sy-citypage-theater-04.jpg'
 import theater5 from './sy-citypage-theater-05.jpg'
 import theater6 from './sy-citypage-theater-06.jpg'
@@ -33,18 +33,23 @@ export const theaters = [
     id: '1',
     src: theater1,
     caption: 'Shen Yun Whats New Page',
+    description: 'React, Redux, Create React App, Styled-Components',
     url: 'https://www.shenyun.org/news-reviews',
   },
   {
     id: '2',
     src: theater2,
     caption: 'Shen Yun Our Story Page',
+    description: 'React, Create React App, Postcss, Styled-Components',
     url: 'https://www.shenyun.org/our-story',
   },
   {
     id: '3',
-    src: theater3,
-    caption: 'Four Seasons Centre, Toronto, Canada',
+    src: sycom,
+    caption: 'Shen Yun Homepage',
+    description: 'React, Redux, Create React App, Styled-Components',
+    url: 'https://www.shenyun.com',
+    videoEmbed: '<div style="padding:60.23% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726398808?h=564581f6bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording shenyun.com"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
   {
     id: '4',
