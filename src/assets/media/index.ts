@@ -79,10 +79,5 @@ export const theaters = [
     src: theater8,
     caption: 'Graz Opera, Graz, Austria',
   },
-  {
-    id: '9',
-    src: theater9,
-    caption: 'Bunkyo Civic Hall, Tokyo, Japan',
-  },
 ]
 export const theatersByIndex = index => theaters[index % theaters.length]

@@ -1,7 +1,6 @@
 import React, {useEffect, useCallback, useState, useRef, memo} from 'react'
 import {useDispatch, useSelector} from 'react-redux'
-import Button from '@mui/material/Button'
-// import Drawer from '@mui/material/Drawer'
+// import {DarkThemeToggle} from "flowbite-react";
 
 import {RootState} from 'store'
 
@@ -11,6 +10,9 @@ import {fetchInitial, setFocusArea} from './NavigationSlice'
 import ItemCard from '../ItemCard'
 // import useIntersect from '../../hooks/useIntersect'
 import Loading from '../Loading'
+// import {DarkThemeToggle} from "flowbite-react";
+import ThemeToggle from "../ThemeToggle";
+
 
 // interface IProps {
 //   data: any
@@ -31,11 +33,11 @@ const Navigation: React.FC = memo(() => {
 
   return (
     <>
-      <div className="col-span-4 md:px-6 relative">
+      <div className="col-span-4 md:px-6 relative block dark:text-white">
         <div className="flex justify-between items-center pb-4">
           <header
             className={`text-lg font-black`}>
-             PENG YAN
+              PENG YAN
           </header>
 
           <div className="flex md:hidden">
@@ -76,7 +78,7 @@ const Navigation: React.FC = memo(() => {
           </li>
         </ul>
         {openMenu && (
-          <div className="absolute shadow-lg z-10 md:hidden justify-between items-center w-full flex md:w-auto md:order-1 pb-4 bg-slate-100" id="mobile-menu-4">
+          <div className="z-100 md:hidden justify-between items-center w-full flex md:w-auto md:order-1 pb-4" id="mobile-menu-4">
             <ul className="w-full flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
               {/* <li> */}
               {/*  <a */}
@@ -106,6 +108,8 @@ const Navigation: React.FC = memo(() => {
             </ul>
           </div>
         )}
+
+        <ThemeToggle />
       </div>
     </>
   )

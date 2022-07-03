@@ -30,7 +30,7 @@ const About: React.FC = memo(() => {
 
   return (
     <>
-      <div className="col-span-7 min-h-screen">
+      <div className="col-span-7 min-h-screen dark:text-slate-400">
         <div className="grid grid-cols-2 gap-x-4 md:gap-x-4 xl:gap-x-6 2xl:gap-x-10 gap-y-8 auto-rows-auto">
           <div className="col-span-2 relative aspect-[18/14]">
             <LazyLoadImage
@@ -53,17 +53,17 @@ const About: React.FC = memo(() => {
               <p className="text-sm">
                 208 Route 209
                 <br />
-                Port Jervis, New York, 12771
+                Port Jervis, NY, 12771
               </p>
             </div>
             <div className="md:col-span-7">
-              <p className="pb-10 leading-relaxed">
+              <p className="pb-10 leading-relaxed text-sm">
                 Before my coding live, I was an artist, I like design and details, I wanna make a perfect website with beautiful UI and smooth UX, this is the reason why I became a programmer.
               </p>
-              <p className="pb-10 leading-relaxed">
+              <p className="pb-10 leading-relaxed text-sm">
                 Seasoned and independent Front End Developer with 10 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging.
               </p>
-              <p className="pb-10 leading-relaxed"><a target="_blank" href="https://Shenyun.com" rel="noreferrer">Shenyun.com</a> is my proudest project. The designer only provide me a very rough design. But with my love, I extend the details and most of the UX design, added animations to improve the details. </p>
+              <p className="pb-10 leading-relaxed text-sm"><a target="_blank" href="https://Shenyun.com" rel="noreferrer">Shenyun.com</a> is my proudest project. The designer only provide me a very rough design. But with my love, I extend the details and most of the UX design, added animations to improve the details. </p>
 
             </div>
           </div>

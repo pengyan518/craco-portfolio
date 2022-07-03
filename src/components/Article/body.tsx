@@ -43,11 +43,11 @@ const Body: React.FC = () => {
 
   return (
     <>
-      <div>
+      <div className="dark:text-white dark:bg-gray-900">
         <header className="flex px-12 py-20 text-slate-500">
           <div className="absolute right-10 top-10 cursor-pointer" onClick={handelClose}>
             {/*  @ts-ignore */}
-            <Close className="h-9 w-9 text-slate-700 ml-2 mt-1" viewBox="0 0 16 16" />
+            <Close className="h-9 w-9 text-slate-700 ml-2 mt-1 dark:text-slate-400" viewBox="0 0 16 16" />
           </div>
         </header>
         {getContent.videoEmbed && (
