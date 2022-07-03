@@ -1,4 +1,4 @@
-import React, {useMemo} from 'react'
+import React, {useMemo, useState, useEffect} from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 
 import {RootState} from 'store'
@@ -20,7 +20,7 @@ import {theaters} from '../../assets/media'
 // }
 
 const Body: React.FC = () => {
-  // const [pushedSeatsDom, setPushedSeatsDom] = useState(false)
+  const [load, setLoading] = useState(true)
   // const {originalLink, linkHighlighted, nameDisplay, length, id} = item
   const {translation} = useSelector((state: RootState) => state.main)
   const {articleId, loading} = useSelector((state: RootState) => state.article)
@@ -34,6 +34,13 @@ const Body: React.FC = () => {
     return theaters[index]
   }, [articleId])
 
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1000)
+    // return () => {
+    // };
+  }, [])
+
+
   return (
     <>
       <div>
@@ -43,21 +50,30 @@ const Body: React.FC = () => {
             <Close className="h-9 w-9 text-slate-700 ml-2 mt-1" viewBox="0 0 16 16" />
           </div>
         </header>
-        <div className="mx-auto w-11/12" dangerouslySetInnerHTML={{__html: getContent.videoEmbed}} />
-        <div className="mx-auto w-9/12 p-20 text-center">
+        {getContent.videoEmbed && (
+          <div className="videoWrapper">
+            <div className="mx-auto md:w-11/12" dangerouslySetInnerHTML={{__html: getContent.videoEmbed}} />
+            {/* @ts-ignore */}
+            {load && <Loading height="80vh" width="100%" color="#1976d2" className="top-0" />}
+          </div>
+        )}
+        <div className="mx-auto md:w-9/12 pt-20 md:p-20 text-center">
           <header className="font-black text-sm uppercase text-slate-400">Framework:</header>
           <div className="font-medium uppercase text-sm my-4" dangerouslySetInnerHTML={{__html: getContent.description}} />
           <div className="mx-auto w-7/12">
-          <a href={getContent.url} target="_blank"
-            className="my-12 font-medium rounded-lg text-sm px-16 py-4 text-center inline-flex items-center Button" rel="noreferrer">
-            Go to Page
-            <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fillRule="evenodd"
-                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                clipRule="evenodd"></path>
-            </svg>
-          </a>
+            <a
+              href={getContent.url}
+              target="_blank"
+              className="my-12 font-medium rounded-lg text-sm px-16 py-4 text-center inline-flex items-center Button"
+              rel="noreferrer">
+              Go to Page
+              <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fillRule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clipRule="evenodd"></path>
+              </svg>
+            </a>
           </div>
         </div>
       </div>

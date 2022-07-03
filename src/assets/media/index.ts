@@ -9,7 +9,7 @@ import img0 from './9c.jpg'
 import theater1 from './wn.jpg'
 import theater2 from './ourStory.jpg'
 import sycom from './sycom.jpg'
-import theater4 from './sy-citypage-theater-04.jpg'
+import shenyunorg from './shenyunorg.jpg'
 import theater5 from './sy-citypage-theater-05.jpg'
 import theater6 from './sy-citypage-theater-06.jpg'
 import theater7 from './sy-citypage-theater-07.jpg'
@@ -53,8 +53,11 @@ export const theaters = [
   },
   {
     id: '4',
-    src: theater4,
-    caption: 'Palais des Congrès de Paris, Paris, France',
+    src: shenyunorg,
+    caption: 'Shen Yun Company Homepage',
+    description: 'Webpack, Gulp, jQuery, Sass',
+    url: 'https://www.shenyun.org',
+    videoEmbed: '<div style="padding:68.61% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726478996?h=3bc2867e01&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording at org"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
   {
     id: '5',

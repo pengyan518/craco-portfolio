@@ -39,7 +39,7 @@ const Main: React.FC = () => {
         <Loading height="100vh" width="100%" color="#1976d2" />
       ) : (
         <>
-          <div className="grid grid-cols-1 p-4 md:grid-cols-12 md:py-20">
+          <div className="grid grid-cols-1 p-4 md:grid-cols-12 md:pt-20 md:pb-60 dark:bg-slate-800">
             <Navigation />
             {active === 'me' && <Me />}
             {active === 'works' && <WorksGrid />}

@@ -39,9 +39,9 @@ const ItemCard: React.FC<IProps> = memo(({item}) => {
     <a className="w-full relative cursor-pointer" onClick={openArticle}>
       <div className="w-full shadow-md rounded aspect-[18/16] relative cursor-pointer hover:opacity-50 transition-opacity">
         {/*  @ts-ignore */}
-        <LazyLoadImage className="rounded absolute object-cover inset-0 w-full h-full" src={src} effect="blur" />
+        <LazyLoadImage className="rounded absolute object-cover inset-0 shadow-inner w-full h-full" src={src} effect="blur" />
       </div>
-      <div className="text-sm line-clamp-3 mt-2 leading-5 hover:text-sky-700" onClick={openArticle}>{caption}</div>
+      <div className="text-sm line-clamp-3 mt-2 leading-5 hover:text-sky-700 dark:text-white" onClick={openArticle}>{caption}</div>
     </a>
 
   )
