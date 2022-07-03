@@ -10,7 +10,7 @@ import theater1 from './wn.jpg'
 import theater2 from './ourStory.jpg'
 import sycom from './sycom.jpg'
 import shenyunorg from './shenyunorg.jpg'
-import theater5 from './sy-citypage-theater-05.jpg'
+import mediaLibrary from './media-library.jpg'
 import theater6 from './sy-citypage-theater-06.jpg'
 import theater7 from './sy-citypage-theater-07.jpg'
 import theater8 from './sy-citypage-theater-08.jpg'
@@ -61,8 +61,10 @@ export const theaters = [
   },
   {
     id: '5',
-    src: theater5,
-    caption: 'Teatro dell’Opera, Rome, Italy',
+    src: mediaLibrary,
+    caption: 'Media Library Homepage',
+    description: 'React, Redux, Create React App, Taildwind CSS, Styled-Components',
+    videoEmbed: '<div style="padding:75.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726532589?h=28ae9710b8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording MediaLibrary"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
   {
     id: '6',
