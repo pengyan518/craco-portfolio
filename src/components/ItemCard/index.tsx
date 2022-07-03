@@ -2,8 +2,8 @@ import React, {useEffect, useCallback, useState, memo} from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import {LazyLoadImage} from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css'
-import Drawer from '@mui/material/Drawer'
-import Box from '@mui/material/Box'
+// import Drawer from '@mui/material/Drawer'
+// import Box from '@mui/material/Box'
 
 import {RootState} from 'store'
 

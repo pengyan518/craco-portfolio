@@ -31,12 +31,12 @@ const Navigation: React.FC = memo(() => {
 
   return (
     <>
-      <div className="col-span-4 md:px-6">
+      <div className="col-span-4 md:px-6 sticky">
         <div className="flex justify-between items-center pb-4">
           <header
-            className={`text-lg cursor-pointer font-bold ${active === 'works' ? 'active' : 'opacity-70'}`}
+            className={`text-lg cursor-pointer font-black ${active === 'works' ? 'active' : 'opacity-70'}`}
             onClick={handleClick('me')}>
-            {/* PENG YAN */}
+             PENG YAN
           </header>
 
           <div className="flex md:hidden">
