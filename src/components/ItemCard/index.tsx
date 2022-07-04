@@ -11,6 +11,7 @@ import axios from 'axios'
 import config from 'config'
 import {getDrawerStatus} from '../../features/main/MainSlice'
 import {setArticle} from '../Article/ArticleSlice'
+import SearchIcon from "../SvgIcons/SearchIcon";
 // import Image from '../Image'
 
 interface IProps {
@@ -35,11 +36,16 @@ const ItemCard: React.FC<IProps> = memo(({item}) => {
     dispatch(setArticle(id))
   }, [dispatch, id, isDrawerOpened])
 
+
+  // @ts-ignore
   return (
     <a className="w-full relative cursor-pointer" onClick={openArticle}>
-      <div className="w-full shadow-md rounded aspect-[18/16] relative cursor-pointer hover:opacity-50 transition-opacity">
+      <div className="w-full shadow-md rounded aspect-[18/16] relative cursor-pointer transition-opacity asset asset-image">
         {/*  @ts-ignore */}
         <LazyLoadImage className="rounded absolute object-cover inset-0 shadow-inner w-full h-full" src={src} effect="blur" />
+        <div className="overlay" />
+        {/*  @ts-ignore */}
+        <div className="icon"><SearchIcon className="text-white" viewBox="0 0 16 16" /></div>
       </div>
       <div className="text-sm line-clamp-3 mt-2 leading-5 hover:text-sky-700 dark:text-white" onClick={openArticle}>{caption}</div>
     </a>

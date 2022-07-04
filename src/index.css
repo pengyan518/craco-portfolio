@@ -1,6 +1,7 @@
 @import './assets/styles/normalize.css';
 /*@import './assets/styles/custom-media.css';*/
 /*@import './assets/styles/utilities.css';*/
+@import './assets/styles/overlay.css';
 @import './assets/styles/main.css';
 
 @tailwind base;
