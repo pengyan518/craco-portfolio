@@ -47,8 +47,8 @@ export default function ThemeToggle() {
       <div className={`toggle ${isEnabled ? 'enabled' : 'disabled'}`}>
         <span className="hidden">{isEnabled ? 'Enable Light Mode' : 'Enable Dark Mode'}</span>
         <div className="icons">
-          <SunIcon />
           <MoonIcon />
+          <SunIcon />
         </div>
         <input id="toggle" name="toggle" type="checkbox" checked={isEnabled} onClick={toggleState} />
       </div>

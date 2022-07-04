@@ -11,7 +11,9 @@ import theater2 from './ourStory.jpg'
 import sycom from './sycom.jpg'
 import shenyunorg from './shenyunorg.jpg'
 import mediaLibrary from './media-library.jpg'
-import theater6 from './sy-citypage-theater-06.jpg'
+import blscDesktop from './blsc-desktop.jpg'
+import sc from './sc.jpg'
+import blscMobile from './blsc-mobile.jpg'
 import theater7 from './sy-citypage-theater-07.jpg'
 import theater8 from './sy-citypage-theater-08.jpg'
 import theater9 from './sy-citypage-theater-09.jpg'
@@ -68,18 +70,24 @@ export const theaters = [
   },
   {
     id: '6',
-    src: theater6,
-    caption: 'Sydney Lyric Theatre, Sydney, Australia',
+    src: blscDesktop,
+    caption: 'Ticketing Box Seating Chart(desktop)',
+    description: 'React, Redux, Create React App, Styled-Components, Postcss',
+    videoEmbed: '<div style="padding:61.91% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726562666?h=a51c36819a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording 2022-07-03 at 202425"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
   {
     id: '7',
-    src: theater7,
-    caption: 'Dolby Theatre, Hollywood',
+    src: blscMobile,
+    caption: 'Ticketing Box Seating Chart(mobile)',
+    description: 'React, Redux, Create React App, Styled-Components, Postcss',
+    videoEmbed: '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/ZfizI3Ff3KQ" title="Screen Recording seating chart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     id: '8',
-    src: theater8,
-    caption: 'Graz Opera, Graz, Austria',
+    src: sc,
+    caption: 'Ticketing Box Seating Chart by Canvas(desktop)',
+    description: 'Webpack, Gulp, VanillaJs, jQuery, Sass, Postcss',
+    videoEmbed: '<div style="padding:61.91% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726562666?h=a51c36819a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording 2022-07-03 at 202425"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
 ]
 export const theatersByIndex = index => theaters[index % theaters.length]
