@@ -47,7 +47,7 @@ const ItemCard: React.FC<IProps> = memo(({item}) => {
         {/*  @ts-ignore */}
         <div className="icon"><SearchIcon className="text-white" viewBox="0 0 16 16" /></div>
       </div>
-      <div className="text-sm line-clamp-3 mt-2 leading-5 hover:text-sky-700 dark:text-white" onClick={openArticle}>{caption}</div>
+      <div className="text-sm line-clamp-3 mt-4 leading-5 hover:text-sky-700 dark:text-white" onClick={openArticle}>{caption}</div>
     </a>
 
   )

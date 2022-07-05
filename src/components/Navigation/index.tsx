@@ -7,11 +7,12 @@ import {RootState} from 'store'
 // import axios from 'axios'
 // import config from 'config'
 import {fetchInitial, setFocusArea} from './NavigationSlice'
-import ItemCard from '../ItemCard'
+import {Box} from './styles'
 // import useIntersect from '../../hooks/useIntersect'
-import Loading from '../Loading'
+// import Loading from '../Loading'
 // import {DarkThemeToggle} from "flowbite-react";
 import ThemeToggle from "../ThemeToggle";
+import Footer from "./Footer";
 
 
 // interface IProps {
@@ -33,7 +34,7 @@ const Navigation: React.FC = memo(() => {
 
   return (
     <>
-      <div className="col-span-4 md:px-6 relative block dark:text-white">
+      <Box className="col-span-4 md:px-6 relative block dark:text-white">
         <div className="flex justify-between items-center pb-4">
           <header
             className={`text-lg font-black`}>
@@ -109,8 +110,14 @@ const Navigation: React.FC = memo(() => {
           </div>
         )}
 
-        <ThemeToggle />
-      </div>
+
+        <div className="fixed bottom-5">
+          <ThemeToggle />
+          <Footer />
+        </div>
+
+
+      </Box>
     </>
   )
 })

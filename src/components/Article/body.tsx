@@ -57,7 +57,7 @@ const Body: React.FC = () => {
           </div>
         )}
         <div className="mx-auto md:w-9/12 pt-20 md:p-20 text-center">
-          <header className="font-black text-sm uppercase text-slate-400">Framework:</header>
+          <header className="font-black text-sm uppercase text-gray-400">Framework:</header>
           <div className="font-medium uppercase text-sm my-4" dangerouslySetInnerHTML={{__html: getContent.description}} />
           <div className="mx-auto w-7/12">
             {getContent.url && (

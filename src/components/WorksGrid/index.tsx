@@ -11,7 +11,7 @@ import {fetchInitial} from './LatestSlice'
 import ItemCard from '../ItemCard'
 // import useIntersect from '../../hooks/useIntersect'
 import Loading from '../Loading'
-import {mediaByIndex,theaters} from "../../assets/media";
+import {theaters} from "../../assets/media";
 
 // interface IProps {
 //   data: any
