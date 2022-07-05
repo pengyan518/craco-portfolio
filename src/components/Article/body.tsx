@@ -34,7 +34,7 @@ const Body: React.FC = () => {
     return theaters[index]
   }, [articleId])
 
-  const loadingHeight = useMemo(()=>window.innerWidth>=768?'55vh':'40vh', [])
+  const loadingHeight = useMemo(()=>window.innerWidth>=768?'50vw':'40vh', [])
   console.debug(loadingHeight)
 
   useEffect(() => {
