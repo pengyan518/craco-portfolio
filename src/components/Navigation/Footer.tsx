@@ -30,7 +30,7 @@ const Footer: React.FC = memo(() => {
 
   return (
     <>
-      <div className="relative block dark:text-gray-300 text-[11px] mt-8 font-light">
+      <div className="relative hidden md:block dark:text-gray-300 text-[11px] mt-8 font-light">
         © 2022. All rights reserved.
       </div>
     </>
