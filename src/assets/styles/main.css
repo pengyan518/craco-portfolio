@@ -27,7 +27,7 @@
   --padding-v: 12px;
 }
 .MuiDrawer-paper {
-  @apply w-full md:w-9/12;
+  @apply w-full xl:w-9/12;
 }
 .svgIcon {
   width: 14px !important;

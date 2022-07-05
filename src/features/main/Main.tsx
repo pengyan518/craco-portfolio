@@ -52,8 +52,7 @@ const Main: React.FC = () => {
             open={isDrawerOpened}
             onClose={handleClose}
             aria-labelledby="modal-modal-title"
-            aria-describedby="modal-modal-description"
-            className="w-9/12">
+            aria-describedby="modal-modal-description">
             <Box>
               <Article />
             </Box>
