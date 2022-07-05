@@ -44,6 +44,7 @@ const Main: React.FC = () => {
             {active === 'me' && <Me />}
             {active === 'works' && <WorksGrid />}
             {active === 'about' && <About />}
+            <div className="relative md:hidden block dark:text-gray-300 text-[11px] mt-8 font-light">© 2022. All rights reserved.</div>
           </div>
 
           <Drawer
@@ -52,9 +53,10 @@ const Main: React.FC = () => {
             onClose={handleClose}
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
-            className="w-9/12"
-          >
-            <Box><Article /></Box>
+            className="w-9/12">
+            <Box>
+              <Article />
+            </Box>
           </Drawer>
         </>
       )}

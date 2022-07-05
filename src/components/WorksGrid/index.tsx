@@ -7,7 +7,6 @@ import {RootState} from 'store'
 
 // import axios from 'axios'
 // import config from 'config'
-import {fetchInitial} from './LatestSlice'
 import ItemCard from '../ItemCard'
 // import useIntersect from '../../hooks/useIntersect'
 import Loading from '../Loading'
@@ -49,7 +48,7 @@ const WorksGrid: React.FC = memo(() => {
   return (
     <>
       <div className="col-span-7">
-        <div className="grid grid-cols-2 gap-x-4 md:gap-x-4 xl:gap-x-6 2xl:gap-x-10 gap-y-14 md:grid-cols-2 xl:grid-cols-3 auto-rows-auto mb-40">
+        <div className="grid grid-cols-2 gap-x-4 md:gap-x-4 xl:gap-x-6 2xl:gap-x-10 gap-y-14 md:grid-cols-2 xl:grid-cols-3 auto-rows-auto mb-20">
            {theaters &&
             theaters.map(item => {
               const {id} = item

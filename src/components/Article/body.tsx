@@ -34,6 +34,9 @@ const Body: React.FC = () => {
     return theaters[index]
   }, [articleId])
 
+  const loadingHeight = useMemo(()=>window.innerWidth>=768?'55vh':'40vh', [])
+  console.debug(loadingHeight)
+
   useEffect(() => {
     setTimeout(() => setLoading(false), 1000)
     // return () => {
@@ -53,7 +56,7 @@ const Body: React.FC = () => {
           <div className="videoWrapper">
             <div className="mx-auto md:w-11/12" dangerouslySetInnerHTML={{__html: getContent.videoEmbed}} />
             {/* @ts-ignore */}
-            {load && <Loading height="80vh" width="100%" color="#1976d2" className="top-0" />}
+            {load && <Loading height={loadingHeight} width="100%" color="#1976d2" className="top-0" />}
           </div>
         )}
         <div className="mx-auto md:w-9/12 pt-20 md:p-20 text-center">
