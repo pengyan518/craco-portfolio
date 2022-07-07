@@ -11,9 +11,8 @@ import {Box} from './styles'
 // import useIntersect from '../../hooks/useIntersect'
 // import Loading from '../Loading'
 // import {DarkThemeToggle} from "flowbite-react";
-import ThemeToggle from "../ThemeToggle";
-import Footer from "./Footer";
-
+import ThemeToggle from '../ThemeToggle'
+import Footer from './Footer'
 
 // interface IProps {
 //   data: any
@@ -36,10 +35,7 @@ const Navigation: React.FC = memo(() => {
     <>
       <Box className="col-span-4 md:px-6 relative block dark:text-white">
         <div className="flex justify-between items-center pb-4">
-          <header
-            className={`text-lg font-black`}>
-              PENG YAN
-          </header>
+          <header className={`text-lg font-black`}>PENG YAN</header>
 
           <div className="flex md:hidden">
             <button
@@ -48,20 +44,16 @@ const Navigation: React.FC = memo(() => {
               type="button"
               className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="mobile-menu-4"
-              aria-expanded="false">
+              aria-expanded={openMenu}>
               <span className="sr-only">Open main menu</span>
-              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fillRule="evenodd"
-                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                  clipRule="evenodd"></path>
-              </svg>
-              <svg className="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fillRule="evenodd"
-                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                  clipRule="evenodd"></path>
-              </svg>
+              <div className="ac-gn-menuicon-label" aria-hidden="true">
+                <span className="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+                  <span className="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+                </span>
+                <span className="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+                  <span className="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+                </span>
+              </div>
             </button>
           </div>
         </div>
@@ -110,13 +102,10 @@ const Navigation: React.FC = memo(() => {
           </div>
         )}
 
-
         <div className="fixed bottom-5">
           <ThemeToggle />
           <Footer />
         </div>
-
-
       </Box>
     </>
   )
