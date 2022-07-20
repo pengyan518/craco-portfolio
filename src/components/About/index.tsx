@@ -58,12 +58,12 @@ const About: React.FC = memo(() => {
             </div>
             <div className="md:col-span-7">
               <p className="pb-10 leading-relaxed text-sm">
-                Before my coding live, I was an artist, I like design and details, I wanna make a perfect website with beautiful UI and smooth UX, this is the reason why I became a programmer.
+                Before my coding life, I was an artist, I love design and details, I wanted to make a perfect website with a beautiful UI and smooth UX, that`&apos;s why I became a programmer.
               </p>
               <p className="pb-10 leading-relaxed text-sm">
                 Seasoned and independent Front End Developer with 10 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging.
               </p>
-              <p className="pb-10 leading-relaxed text-sm"><a target="_blank" href="https://Shenyun.com" rel="noreferrer">Shenyun.com</a> is my proudest project. The designer only provide me a very rough design. But with my love, I extend the details and most of the UX design, added animations to improve the details. </p>
+              <p className="pb-10 leading-relaxed text-sm"><a target="_blank" href="https://Shenyun.com" rel="noreferrer">Shenyun.com</a> is my proudest project. The designer only gave me a very rough design. But out of my love, I expanded the details and most of the UX design, adding animations to improve the details. </p>
 
             </div>
           </div>
