@@ -69,7 +69,7 @@ const Body: React.FC = () => {
                 target="_blank"
                 className="my-12 font-medium rounded-lg text-sm px-16 py-4 text-center inline-flex items-center Button"
                 rel="noreferrer">
-                Go to Page
+                Go to Production
                 <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                   <path
                     fillRule="evenodd"
