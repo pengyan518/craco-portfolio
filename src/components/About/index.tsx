@@ -42,28 +42,28 @@ const About: React.FC = memo(() => {
           </div>
           <div className="col-span-2 relative grid md:grid-cols-12 md:gap-x-6 xl:gap-x-6 2xl:gap-x-10 gap-y-8 auto-rows-auto mt-10">
             <div className="md:col-span-4">
-              <header className="pb-8">Contact</header>
-              <p className="text-sm mb-10">
+              <header className="pb-8 text-[0.875rem]">Contact</header>
+              <p className="text-[0.875rem] mb-10">
                 T. 845 421 2078
                 <br />
                 <a className="underline" href="mailto:pengtrym@gmail.com">
                   pengtrym@gmail.com
                 </a>
               </p>
-              <p className="text-sm">
+              <p className="text-[0.875rem]">
                 208 Route 209
                 <br />
                 Port Jervis, NY, 12771
               </p>
             </div>
             <div className="md:col-span-7">
-              <p className="pb-10 leading-relaxed text-sm">
-                Before my coding life, I was an artist, I love design and details, I wanted to make a perfect website with a beautiful UI and smooth UX, that`&apos;s why I became a programmer.
+              <p className="pb-10 leading-relaxed text-[0.875rem]">
+                Before my coding life, I was an artist, I love design and details, I wanted to make a perfect website with a beautiful UI and smooth UX, that&apos;s why I became a programmer.
               </p>
-              <p className="pb-10 leading-relaxed text-sm">
+              <p className="pb-10 leading-relaxed text-[0.875rem]">
                 Seasoned and independent Front End Developer with 10 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging.
               </p>
-              <p className="pb-10 leading-relaxed text-sm"><a target="_blank" href="https://Shenyun.com" rel="noreferrer">Shenyun.com</a> is my proudest project. The designer only gave me a very rough design. But out of my love, I expanded the details and most of the UX design, adding animations to improve the details. </p>
+              {/* <p className="pb-10 leading-relaxed text-base"><a target="_blank" href="https://Shenyun.com" rel="noreferrer">Shenyun.com</a> is my proudest project. The designer only gave me a very rough design. But out of my love, I expanded the details and most of the UX design, adding animations to improve the details. </p> */}
 
             </div>
           </div>

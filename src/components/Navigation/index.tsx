@@ -60,12 +60,12 @@ const Navigation: React.FC = memo(() => {
 
         <ul className="hidden md:block">
           <li className={active === 'works' ? 'active' : 'opacity-70'}>
-            <a className="cursor-pointer pt-4 pb-2 block" onClick={handleClick('works')}>
+            <a className="cursor-pointer pt-4 pb-2 block font-medium" onClick={handleClick('works')}>
               Works
             </a>
           </li>
           <li className={active === 'about' ? 'active' : 'opacity-70'}>
-            <a className="cursor-pointer py-2 block" onClick={handleClick('about')}>
+            <a className="cursor-pointer py-2 block font-medium" onClick={handleClick('about')}>
               About
             </a>
           </li>

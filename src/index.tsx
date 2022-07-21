@@ -1,6 +1,8 @@
 /* istanbul ignore file */
 import React from 'react'
 import {createRoot} from 'react-dom/client'
+
+
 import './index.css'
 import './assets/styles/button.scss'
 import App from './App'
