@@ -42,7 +42,7 @@ export const theaters = [
     id: '5',
     src: mediaLibrary,
     caption: 'Media Library Homepage',
-    description: 'Create React App, React, Redux, Create React App, Taildwind CSS, Styled-Components',
+    description: 'Create React App, React, Redux, Taildwind CSS, Styled-Components',
     videoEmbed:
       '<div style="padding:75.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726532589?h=28ae9710b8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording MediaLibrary"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
@@ -79,7 +79,7 @@ export const theaters = [
     src: blscDesktop,
     caption: 'Ticketing Box Seating Chart(desktop)',
     url: 'https://tickets.shenyun.com/event/schedule/shenyun-2023-portland-2023-1-22-1pm/sc/1/',
-    description: 'Create React App, React, Redux, Create React App, Styled-Components, Postcss',
+    description: 'Create React App, React, Redux, Styled-Components, Postcss',
     videoEmbed:
       '<div style="padding:61.91% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726562666?h=a51c36819a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording 2022-07-03 at 202425"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
