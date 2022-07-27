@@ -3,6 +3,8 @@ import './styles.scss'
 import {ReactComponent as MoonIcon} from './assets/svg/moon.svg'
 import {ReactComponent as SunIcon} from './assets/svg/sun.svg'
 
+const isDark = window.matchMedia("(prefers-color-scheme:dark)").matches
+
 const updateTheme = isDarkEnabled => {
   // Get CSS variables for background/foreground
   // eslint-disable-next-line no-undef
@@ -26,7 +28,7 @@ const updateTheme = isDarkEnabled => {
 }
 
 export default function ThemeToggle() {
-  const [isEnabled, setIsEnabled] = useState(false)
+  const [isEnabled, setIsEnabled] = useState(isDark)
 
   /*
    * Read the blog post here:

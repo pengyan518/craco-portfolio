@@ -45,7 +45,7 @@ const Body: React.FC = () => {
 
   return (
     <>
-      <div className="dark:text-white dark:bg-gray-900">
+      <div className="">
         <header className="flex px-12 py-12 md:py-16 text-slate-500">
           <div className="absolute right-4 md:right-10 top-4 md:top-10 cursor-pointer" onClick={handelClose}>
             {/*  @ts-ignore */}
@@ -60,7 +60,7 @@ const Body: React.FC = () => {
           </div>
         )}
         <div className="mx-auto md:w-9/12 pt-14 md:p-14 text-center">
-          <header className="font-black text-sm uppercase text-gray-600">Framework:</header>
+          <header className="font-black text-sm uppercase text-gray-600 dark:text-gray-300">Framework:</header>
           <div className="font-medium uppercase text-sm my-4" dangerouslySetInnerHTML={{__html: getContent.description}} />
           <div className="mx-auto w-7/12">
             {getContent.url && (

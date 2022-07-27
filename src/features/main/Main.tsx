@@ -6,12 +6,12 @@ import {RootState} from 'store'
 
 import {fetchTranslation, getDrawerStatus, fetchInitial, setDialogStatus} from './MainSlice'
 
-import Latest from '../../components/Latest'
-import Category from '../../components/Category'
+// import Latest from '../../components/Latest'
+// import Category from '../../components/Category'
 import Article from '../../components/Article'
-import {Tab, Paper, Wrapper} from './styles'
-import Search from '../../components/Search'
-import Header from '../../components/Header'
+// import {Tab, Paper, Wrapper} from './styles'
+// import Search from '../../components/Search'
+// import Header from '../../components/Header'
 import Loading from '../../components/Loading'
 import config from '../../config'
 import Navigation from '../../components/Navigation'
@@ -39,7 +39,7 @@ const Main: React.FC = () => {
         <Loading height="100vh" width="100%" color="#1976d2" />
       ) : (
         <>
-          <div className="grid grid-cols-1 p-4 md:grid-cols-12 md:pt-20 md:pb-60 dark:bg-slate-800">
+          <div className="grid grid-cols-1 p-4 md:grid-cols-12 md:pt-20 md:pb-60 dark:bg-gray-800">
             <Navigation />
             {active === 'me' && <Me />}
             {active === 'works' && <WorksGrid />}

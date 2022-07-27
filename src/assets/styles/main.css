@@ -26,6 +26,9 @@
   --logo-top-margin: 3.5vw;
   --padding-v: 12px;
 }
+.MuiPaper-root {
+  @apply dark:text-white dark:bg-gray-800;
+}
 .MuiDrawer-paper {
   @apply w-full xl:w-9/12;
 }
