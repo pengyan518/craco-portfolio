@@ -33,7 +33,7 @@ const Navigation: React.FC = memo(() => {
 
   return (
     <>
-      <Box className="col-span-4 md:px-6 relative block dark:text-white">
+      <Box className="col-span-3 lg:col-san-4 md:px-6 relative block dark:text-white">
         <div className="flex justify-between items-center pb-4">
           <header className={`text-lg font-black`}>PENG YAN</header>
 

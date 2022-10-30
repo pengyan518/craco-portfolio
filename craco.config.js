@@ -12,11 +12,6 @@ const resolve = dir => path.resolve(__dirname, dir)
 // );
 
 module.exports = {
-  style: {
-    postcss: {
-      mode: POSTCSS_MODES.file,
-    },
-  },
   eslint: {
     mode: ESLINT_MODES.file,
   },

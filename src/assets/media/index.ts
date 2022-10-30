@@ -8,7 +8,8 @@
 import img0 from './9c.jpg'
 import theater1 from './wn.jpg'
 import theater2 from './ourStory.jpg'
-import sycom from './sycom.jpg'
+import sycom from './sycom2.jpg'
+import ntsy from './ntsy.jpg'
 import shenyunorg from './shenyunorg.jpg'
 import mediaLibrary from './media-library.jpg'
 import blscDesktop from './blsc-desktop.jpg'
@@ -27,7 +28,16 @@ export const theaters = [
     description: 'Create React App, React, Redux, Styled-Components',
     url: 'https://www.shenyun.com',
     videoEmbed:
-      '<div style="padding:60.23% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726398808?h=564581f6bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording shenyun.com"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/nZ5CLQeaCfA?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  },
+  {
+    id: '10',
+    src: ntsy,
+    caption: 'New to Shen Yun Page',
+    description: 'Create React App, React, Redux, Taildwind CSS, Styled-Components',
+    url: 'https://www.shenyun.org/what-is-shen-yun',
+    videoEmbed:
+      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/sAMbz8aSGsk?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     id: '4',
@@ -110,6 +120,5 @@ export const theaters = [
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/D-mHzmCBZs8?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
-
 ]
 export const theatersByIndex = index => theaters[index % theaters.length]

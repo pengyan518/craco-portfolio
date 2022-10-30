@@ -19,35 +19,9 @@ import {theaters} from "../../assets/media";
 // }
 
 const WorksGrid: React.FC = memo(() => {
-  // const [pushedSeatsDom, setPushedSeatsDom] = useState(false)
-  // const [page, setPage] = useState(1)
-  const {latest, loading} = useSelector((state: RootState) => state.latest)
-  const {translation} = useSelector((state: RootState) => state.main)
-  const page = useRef(1)
-
-  const dispatch = useDispatch()
-
-  // const handleLoadMore = useCallback(() => {
-  //   // setTimeout(() => {
-  //     page.current += 1
-  //     // @ts-ignore
-  //     dispatch(fetchInitial(page.current))
-  //   // }, 500)
-  // }, [dispatch])
-  //
-  // useEffect(() => {
-  //   if (latest.length === 0) {
-  //     // @ts-ignore
-  //     dispatch(fetchInitial(page.current))
-  //   }
-  //   return () => {}
-  // }, [dispatch, latest, page])
-
-
-
   return (
     <>
-      <div className="col-span-7">
+      <div className="col-span-8 lg:col-span-7">
         <div className="grid grid-cols-2 gap-x-4 md:gap-x-4 xl:gap-x-6 2xl:gap-x-10 gap-y-14 md:grid-cols-2 xl:grid-cols-3 auto-rows-auto mb-40 md:mb-20">
            {theaters &&
             theaters.map(item => {
