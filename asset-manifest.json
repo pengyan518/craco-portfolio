@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/craco-portfolio/static/css/main.c4d13b0d.css",
-    "main.js": "/craco-portfolio/static/js/main.7e2b81ba.js",
+    "main.css": "/craco-portfolio/static/css/main.7fe88dca.css",
+    "main.js": "/craco-portfolio/static/js/main.4150e683.js",
     "static/media/about-bg.jpg": "/craco-portfolio/static/media/about-bg.48b883584afd47c3cd0f.jpg",
     "static/media/9c.jpg": "/craco-portfolio/static/media/9c.ab302dd706ee1a47e5b6.jpg",
     "static/media/media-library.jpg": "/craco-portfolio/static/media/media-library.d5569aefb7ebe2652ffd.jpg",
@@ -19,7 +19,7 @@
     "static/media/moon.svg": "/craco-portfolio/static/media/moon.f8528ea9e73006ba68f0218e540e26bf.svg"
   },
   "entrypoints": [
-    "static/css/main.c4d13b0d.css",
-    "static/js/main.7e2b81ba.js"
+    "static/css/main.7fe88dca.css",
+    "static/js/main.4150e683.js"
   ]
 }
