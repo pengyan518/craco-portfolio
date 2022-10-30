@@ -27,7 +27,7 @@ const About: React.FC = memo(() => {
             />
             {/* <img src="//live.staticflickr.com/65535/52183654588_280cfa8886_h.jpg" alt="" /> */}
           </div>
-          <div className="relative grid md:grid-cols-[4fr_7fr] md:grid-cols--12 md:gap-x-6 xl:gap-x-6 2xl:gap-x-10 gap-y-8 auto-rows-auto mt-10">
+          <div className="relative grid md:grid-cols-[4fr_7fr] md:gap-x-6 xl:gap-x-6 2xl:gap-x-10 gap-y-8 auto-rows-auto mt-10 mb-40">
             <div>
               <header className="pb-8 text-[0.875rem]">Contact</header>
               <p className="text-[0.875rem] mb-10">

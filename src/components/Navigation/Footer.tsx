@@ -20,18 +20,13 @@ import ThemeToggle from "../ThemeToggle";
 // }
 
 const Footer: React.FC = memo(() => {
-  // const [pushedSeatsDom, setPushedSeatsDom] = useState(false)
-  const [openMenu, setOpenMenu] = useState(false)
-  const {active} = useSelector((state: RootState) => state.navigation)
-  const {translation} = useSelector((state: RootState) => state.main)
-  const page = useRef(1)
-
-  const dispatch = useDispatch()
+  const currentYear = new Date().getFullYear()
 
   return (
     <>
-      <div className="relative hidden md:block dark:text-gray-300 text-[11px] mt-8 font-light">
-        © 2022. All rights reserved.
+      <ThemeToggle />
+      <div className="relative dark:text-gray-300 text-[11px] mt-8 font-light">
+        © {currentYear}. All rights reserved.
       </div>
     </>
   )

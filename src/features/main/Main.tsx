@@ -18,6 +18,7 @@ import Navigation from '../../components/Navigation'
 import WorksGrid from '../../components/WorksGrid'
 import About from '../../components/About'
 import Me from '../../components/Me'
+import Footer from "../../components/Navigation/Footer";
 
 // import ControlPanel from '../controlPanel/ControlPanel'
 // import SeatingChart from '../../components/SeatingChart'
@@ -44,7 +45,9 @@ const Main: React.FC = () => {
             {active === 'me' && <Me />}
             {active === 'works' && <WorksGrid />}
             {active === 'about' && <About />}
-            <div className="relative md:hidden block dark:text-gray-300 text-[11px] mt-8 font-light">© 2022. All rights reserved.</div>
+            {/* <div className="relative md:hidden block dark:text-gray-300 text-[11px] mt-8 font-light">© 2022. All rights reserved.</div> */}
+            <div className="block md:hidden"><Footer /></div>
+
           </div>
 
           <Drawer

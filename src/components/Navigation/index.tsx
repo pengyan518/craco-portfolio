@@ -102,8 +102,7 @@ const Navigation: React.FC = memo(() => {
           </div>
         )}
 
-        <div className="fixed bottom-5">
-          <ThemeToggle />
+        <div className="fixed bottom-5 hidden md:block">
           <Footer />
         </div>
       </Box>
