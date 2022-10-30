@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/craco-portfolio/static/css/main.89fdf6b0.css",
-    "main.js": "/craco-portfolio/static/js/main.3e0d873b.js",
-    "static/media/ourStory.jpg": "/craco-portfolio/static/media/ourStory.6dffe2ea585d069233bb.jpg",
-    "static/media/wn.jpg": "/craco-portfolio/static/media/wn.c8dbf6e572f55fa54d16.jpg",
-    "static/media/9c.jpg": "/craco-portfolio/static/media/9c.4f1297402eae501b4105.jpg",
-    "static/media/sycom.jpg": "/craco-portfolio/static/media/sycom.cfb15281db6c4e35f516.jpg",
-    "static/media/blsc-mobile.jpg": "/craco-portfolio/static/media/blsc-mobile.71a9e24269e6902aa821.jpg",
-    "static/media/sc.jpg": "/craco-portfolio/static/media/sc.95b7e2af949eebe455b2.jpg",
-    "static/media/shenyunorg.jpg": "/craco-portfolio/static/media/shenyunorg.5063c1e8db460a8da9b7.jpg",
-    "static/media/ccd.jpg": "/craco-portfolio/static/media/ccd.cf34f0ed6feb17df5783.jpg",
-    "static/media/media-library.jpg": "/craco-portfolio/static/media/media-library.6bf6faabd4284edef445.jpg",
-    "static/media/blsc-desktop.jpg": "/craco-portfolio/static/media/blsc-desktop.4ba76c213818237d5d16.jpg",
-    "static/media/medialibrary-top-banner-bg.jpg": "/craco-portfolio/static/media/medialibrary-top-banner-bg.120f32e1420770274c79.jpg",
+    "main.css": "/craco-portfolio/static/css/main.c4d13b0d.css",
+    "main.js": "/craco-portfolio/static/js/main.7e2b81ba.js",
+    "static/media/about-bg.jpg": "/craco-portfolio/static/media/about-bg.48b883584afd47c3cd0f.jpg",
+    "static/media/9c.jpg": "/craco-portfolio/static/media/9c.ab302dd706ee1a47e5b6.jpg",
+    "static/media/media-library.jpg": "/craco-portfolio/static/media/media-library.d5569aefb7ebe2652ffd.jpg",
+    "static/media/ourStory.jpg": "/craco-portfolio/static/media/ourStory.f6a00abf7114bbb27e3d.jpg",
+    "static/media/shenyunorg.jpg": "/craco-portfolio/static/media/shenyunorg.cc724a91410130c3b2a2.jpg",
+    "static/media/wn.jpg": "/craco-portfolio/static/media/wn.a0e37c93116677e7652e.jpg",
+    "static/media/ntsy.jpg": "/craco-portfolio/static/media/ntsy.b83cc44316115a5ee426.jpg",
+    "static/media/sycom2.jpg": "/craco-portfolio/static/media/sycom2.f3cb78a53695739d49c8.jpg",
+    "static/media/sc.jpg": "/craco-portfolio/static/media/sc.0d554c8148f9b0e8a308.jpg",
+    "static/media/ccd.jpg": "/craco-portfolio/static/media/ccd.27d9d525ab0c8d88e943.jpg",
+    "static/media/blsc-mobile.jpg": "/craco-portfolio/static/media/blsc-mobile.072dbc693c5e7fd87ba6.jpg",
+    "static/media/blsc-desktop.jpg": "/craco-portfolio/static/media/blsc-desktop.3eda4a56f08fe6b039ae.jpg",
     "index.html": "/craco-portfolio/index.html",
     "static/media/sun.svg": "/craco-portfolio/static/media/sun.47321b1928b1704e7312555b468ef09b.svg",
-    "static/media/moon.svg": "/craco-portfolio/static/media/moon.f8528ea9e73006ba68f0218e540e26bf.svg",
-    "main.89fdf6b0.css.map": "/craco-portfolio/static/css/main.89fdf6b0.css.map",
-    "main.3e0d873b.js.map": "/craco-portfolio/static/js/main.3e0d873b.js.map"
+    "static/media/moon.svg": "/craco-portfolio/static/media/moon.f8528ea9e73006ba68f0218e540e26bf.svg"
   },
   "entrypoints": [
-    "static/css/main.89fdf6b0.css",
-    "static/js/main.3e0d873b.js"
+    "static/css/main.c4d13b0d.css",
+    "static/js/main.7e2b81ba.js"
   ]
 }
