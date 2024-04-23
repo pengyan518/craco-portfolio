@@ -16,6 +16,8 @@ import blscDesktop from './blsc-desktop.jpg'
 import sc from './sc.jpg'
 import blscMobile from './blsc-mobile.jpg'
 import ccd from './ccd.jpg'
+import music from './music-page.jpg'
+import videoPage from './video-page.jpg'
 //
 // export const media = [media1, media2, media3, media4, media5, media6]
 // export const mediaByIndex = index => media[index % media.length]
@@ -28,7 +30,7 @@ export const theaters = [
     description: 'React, Redux, Tailwind CSS, Styled-Components',
     url: 'https://www.shenyun.com',
     videoEmbed:
-      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/nZ5CLQeaCfA?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/fQCdr6gYdv0?autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     id: '10',
@@ -37,7 +39,25 @@ export const theaters = [
     description: 'React, Redux, Tailwind CSS, Styled-Components',
     url: 'https://www.shenyun.org/what-is-shen-yun',
     videoEmbed:
-      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/sAMbz8aSGsk?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/sAMbz8aSGsk?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  },
+  {
+    id: '11',
+    src: music,
+    caption: 'Shen Yun Music Page',
+    description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
+    url: 'https://promo.shenyun.com/shen-yun-music/',
+    videoEmbed:
+      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/WluJ75xg_Ac?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  },
+  {
+    id: '12',
+    src: videoPage,
+    caption: 'Shen Yun Videos Page',
+    description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
+    url: 'https://www.shenyun.org/videos',
+    videoEmbed:
+      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/yzIvbGq4L94?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
     id: '4',
@@ -88,8 +108,8 @@ export const theaters = [
     id: '6',
     src: blscDesktop,
     caption: 'Ticketing Box Seating Chart(desktop)',
-    url: 'https://tickets.shenyun.com/event/schedule/shenyun-2024-stamford-2024-5-12-1pm/sc/1',
-    description: 'React, Redux, Styled-Components, Postcss',
+    url: 'https://tickets.shenyun.com/event/schedule/shenyun-2023-portland-2023-1-22-1pm/sc/1/',
+    description: 'Create React App, React, Redux, Styled-Components, Postcss',
     videoEmbed:
       '<div style="padding:61.91% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726562666?h=a51c36819a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording 2022-07-03 at 202425"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
@@ -97,8 +117,8 @@ export const theaters = [
     id: '7',
     src: blscMobile,
     caption: 'Ticketing Box Seating Chart(mobile)',
-    url: 'https://tickets.shenyun.com/event/schedule/shenyun-2024-stamford-2024-5-12-1pm/sc/1',
-    description: 'React, Redux, Styled-Components, Postcss',
+    url: 'https://tickets.shenyun.com/event/schedule/shenyun-2023-portland-2023-1-22-1pm/sc/1/',
+    description: 'Create React App, React, Redux, Styled-Components, Postcss',
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/ZfizI3Ff3KQ?&autoplay=1" title="Screen Recording seating chart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
@@ -106,7 +126,7 @@ export const theaters = [
     id: '8',
     src: sc,
     caption: 'Ticketing Box Seating Chart by Canvas(desktop)',
-    url: 'https://tickets.shenyun.com/event/schedule/shenyun-2024-stamford-2024-5-12-1pm/',
+    url: 'https://tickets.shenyun.com/event/schedule/shenyun-2023-portland-2023-1-22-1pm/',
     description: 'Webpack, Gulp, VanillaJs, jQuery, Sass, Postcss',
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/xOssXAfWk3g?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -114,8 +134,8 @@ export const theaters = [
   {
     id: '9',
     src: ccd,
-    caption: 'Shen Yun Classical Chinese Dance Page',
-    description: 'Webpack, Gulp, VanillaJs, jQuery, Sass, Postcss',
+    caption: 'Shen Yun Classical Chinese Dance Page(Renewed)',
+    description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
     url: 'https://www.shenyun.org/classical-chinese-dance',
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/D-mHzmCBZs8?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
