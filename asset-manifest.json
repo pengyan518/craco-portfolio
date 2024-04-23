@@ -1,17 +1,15 @@
 {
   "files": {
     "main.css": "/craco-portfolio/static/css/main.7fe88dca.css",
-    "main.js": "/craco-portfolio/static/js/main.4383a55e.js",
+    "main.js": "/craco-portfolio/static/js/main.4150e683.js",
     "static/media/about-bg.jpg": "/craco-portfolio/static/media/about-bg.48b883584afd47c3cd0f.jpg",
-    "static/media/sycom2.jpg": "/craco-portfolio/static/media/sycom2.41770f4e6b87133ec3a3.jpg",
-    "static/media/music-page.jpg": "/craco-portfolio/static/media/music-page.acf36d1d15918b480b20.jpg",
-    "static/media/video-page.jpg": "/craco-portfolio/static/media/video-page.97921899e0d56c954835.jpg",
     "static/media/9c.jpg": "/craco-portfolio/static/media/9c.ab302dd706ee1a47e5b6.jpg",
     "static/media/media-library.jpg": "/craco-portfolio/static/media/media-library.d5569aefb7ebe2652ffd.jpg",
     "static/media/ourStory.jpg": "/craco-portfolio/static/media/ourStory.f6a00abf7114bbb27e3d.jpg",
     "static/media/shenyunorg.jpg": "/craco-portfolio/static/media/shenyunorg.cc724a91410130c3b2a2.jpg",
     "static/media/wn.jpg": "/craco-portfolio/static/media/wn.a0e37c93116677e7652e.jpg",
     "static/media/ntsy.jpg": "/craco-portfolio/static/media/ntsy.b83cc44316115a5ee426.jpg",
+    "static/media/sycom2.jpg": "/craco-portfolio/static/media/sycom2.f3cb78a53695739d49c8.jpg",
     "static/media/sc.jpg": "/craco-portfolio/static/media/sc.0d554c8148f9b0e8a308.jpg",
     "static/media/ccd.jpg": "/craco-portfolio/static/media/ccd.27d9d525ab0c8d88e943.jpg",
     "static/media/blsc-mobile.jpg": "/craco-portfolio/static/media/blsc-mobile.072dbc693c5e7fd87ba6.jpg",
@@ -22,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.7fe88dca.css",
-    "static/js/main.4383a55e.js"
+    "static/js/main.4150e683.js"
   ]
 }
