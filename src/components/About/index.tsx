@@ -45,10 +45,13 @@ const About: React.FC = memo(() => {
             </div>
             <div>
               <p className="pb-10 leading-relaxed text-[0.875rem]">
-                Before my coding life, I was an artist, I love design and details, I wanted to make a perfect website with a beautiful UI and smooth UX, that&apos;s why I became a programmer.
+                Before my coding life, I was an artist. I love design and details. I wanted to make a perfect website with a beautiful UI and smooth UX. That&apos;s why I became a programmer.
               </p>
               <p className="pb-10 leading-relaxed text-[0.875rem]">
-                Seasoned and independent Front End Developer with 10 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging.
+                {/* Seasoned and independent Front End Developer with 10 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. */}
+
+                I have fourteen years of front-end work experience, from the earliest table-based layout to the most popular CSS grid layout, from jQuery to React, Vue, from Gulp to Webpack, Vite, the growth of front-end technology has also accompanied my growth. I really want to give full play to my expertise in the front-end field because I have a pair of discerning eyes and a heart that likes to learn new technologies.
+
               </p>
               {/* <p className="pb-10 leading-relaxed text-base"><a target="_blank" href="https://Shenyun.com" rel="noreferrer">Shenyun.com</a> is my proudest project. The designer only gave me a very rough design. But out of my love, I expanded the details and most of the UX design, adding animations to improve the details. </p> */}
 
