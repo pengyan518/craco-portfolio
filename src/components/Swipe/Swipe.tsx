@@ -194,8 +194,9 @@ const Swipe = React.forwardRef<SwipeRef, SwipeProps>((props, ref) => {
           {React.Children.map(props.children, (child, index) => {
             if (!React.isValidElement(child)) return null
             if (child.type !== SwipeItem) return null
+            // @ts-ignore
             return React.cloneElement(child, {
-              // style: itemStyle,
+              // @ts-ignore
               vertical,
               ref: setRefs(index),
             })
