@@ -59,15 +59,15 @@ export const theaters = [
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/yzIvbGq4L94?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
-  {
-    id: '4',
-    src: shenyunorg,
-    caption: 'Shen Yun Company Homepage',
-    description: 'Webpack, Gulp, jQuery, Sass',
-    url: 'https://www.shenyun.org',
-    videoEmbed:
-      '<div style="padding:68.61% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726478996?h=3bc2867e01&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording at org"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
-  },
+  // {
+  //   id: '4',
+  //   src: shenyunorg,
+  //   caption: 'Shen Yun Company Homepage',
+  //   description: 'Webpack, Gulp, jQuery, Sass',
+  //   url: 'https://www.shenyun.org',
+  //   videoEmbed:
+  //     '<div style="padding:68.61% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726478996?h=3bc2867e01&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording at org"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
+  // },
   {
     id: '5',
     src: mediaLibrary,

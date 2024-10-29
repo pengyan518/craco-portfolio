@@ -37,11 +37,6 @@ const About: React.FC = memo(() => {
                   pengtrym@gmail.com
                 </a>
               </p>
-              <p className="text-[0.875rem]">
-                208 Route 209
-                <br />
-                Port Jervis, NY, 12771
-              </p>
             </div>
             <div>
               <p className="pb-10 leading-relaxed text-[0.875rem]">
