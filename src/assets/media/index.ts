@@ -108,7 +108,7 @@ export const theaters = [
     id: '6',
     src: blscDesktop,
     caption: 'Ticketing Box Seating Chart(desktop)',
-    url: 'https://tickets.shenyun.com/event/schedule/shenyun-2023-portland-2023-1-22-1pm/sc/1/',
+    url: 'https://tickets.shenyun.com/event/schedule/shenyun-2025-san-jose-2024-12-26-7pm/sc/1',
     description: 'React, Redux, Styled-Components, Postcss',
     videoEmbed:
       '<div style="padding:61.91% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726562666?h=a51c36819a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording 2022-07-03 at 202425"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
@@ -117,7 +117,7 @@ export const theaters = [
     id: '7',
     src: blscMobile,
     caption: 'Ticketing Box Seating Chart(mobile)',
-    url: 'https://tickets.shenyun.com/event/schedule/shenyun-2025-san-jose-2024-12-26-7pm/sc/1',
+    url: 'https://tickets.shenyun.com/event/schedule/shenyun-2025-san-francisco-2025-1-2-7pm/sc/1',
     description: 'React, Redux, Styled-Components, Postcss',
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/ZfizI3Ff3KQ?&autoplay=1" title="Screen Recording seating chart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
