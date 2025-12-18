@@ -1,57 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using [cra-template-typekit](https://github.com/rrebase/cra-template-typekit)
+# Personal Portfolio
 
-## Available Scripts
+This is the repository for my personal portfolio website, showcasing my work and experience as a Front-End Developer.
 
-In the project directory, you can run:
+## Live Demo
 
-### `yarn start`
+[https://pengyan518.github.io/craco-portfolio](https://pengyan518.github.io/craco-portfolio)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About Me
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I am a seasoned Front End Developer with over 14 years of experience. Before my coding life, I was an artist, which gives me a unique perspective on design and details. I strive to create perfect websites with beautiful UIs and smooth UX.
 
-### `yarn test`
+My journey spans from the early days of table-based layouts to modern CSS Grid, and from jQuery to React and Vue. I am passionate about learning new technologies and applying my artistic background to front-end development.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `yarn build`
+- **Framework**: React 18, TypeScript
+- **State Management**: Redux Toolkit
+- **Styling**: Tailwind CSS, Material UI (MUI), SCSS
+- **Build Tool**: CRACO (Create React App Configuration Override)
+- **Other Tools**: React Hook Form, Axios, React Lazy Load Image Component
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Responsive Design
+- Dark/Light Theme support
+- Works/Projects Gallery
+- Interactive UI animations
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Development
 
-### `yarn eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Node.js
+- Yarn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+git clone https://github.com/pengyan518/craco-portfolio.git
+cd craco-portfolio
+yarn install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Scripts
 
-### `test:coverage`
+- `yarn start`: Start development server
+- `yarn build`: Build for production
+- `yarn lint`: Run linting
 
-Run all tests with `--coverage`. Html output will be in `coverage/`.
+---
 
-### `yarn lint`
-
-Lints the code for eslint errors and compiles TypeScript for typing errors.
-Update `rules` in `.eslintrc` if you are not satisifed with some of the default errors/warnings.
-
-### `yarn lint:fix`
-
-Same as `yarn lint`, but also automatically fixes problems.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
