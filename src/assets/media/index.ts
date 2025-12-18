@@ -6,6 +6,7 @@
 // import media6 from './slideshow-thumb-6.jpg'
 
 import img0 from './9c.jpg'
+import img1 from './mobile-checkout.png'
 import theater1 from './wn.jpg'
 import theater2 from './ourStory.jpg'
 import sycom from './sycom2.jpg'
@@ -23,6 +24,15 @@ import videoPage from './video-page.jpg'
 // export const mediaByIndex = index => media[index % media.length]
 
 export const theaters = [
+  {
+    id: '0',
+    src: img1,
+    caption: 'Mobile Checkout Page',
+    url: 'https://tickets.shenyun.com/shenyun-2026-new-york',
+    description: 'Vite, Vue, pinia, Tailwind CSS, Styled-Components',
+    videoEmbed:
+      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/4seoE8ICgKo?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  },
   {
     id: '3',
     src: sycom,

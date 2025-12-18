@@ -31,11 +31,11 @@ const About: React.FC = memo(() => {
             <div>
               <header className="pb-8 text-[0.875rem]">Contact</header>
               <p className="text-[0.875rem] mb-10">
-                T. 845 421 2078
+                {/* T. 845 421 2078 */}
                 <br />
-                <a className="underline" href="mailto:pengtrym@gmail.com">
+                {/* <a className="underline" href="mailto:pengtrym@gmail.com">
                   pengtrym@gmail.com
-                </a>
+                </a> */}
               </p>
             </div>
             <div>
