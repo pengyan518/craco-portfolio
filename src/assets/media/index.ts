@@ -6,7 +6,7 @@
 // import media6 from './slideshow-thumb-6.jpg'
 
 import img0 from './9c.jpg'
-import img1 from './mobile-checkout.png'
+import img1 from './mobile-checkout.jpg'
 import img2 from './myOwn1.jpg'
 import theater1 from './wn.jpg'
 import theater2 from './ourStory.jpg'
