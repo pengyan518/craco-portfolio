@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/craco-portfolio/static/css/main.41a4f800.css",
-    "main.js": "/craco-portfolio/static/js/main.539391fd.js",
-    "static/media/mobile-checkout.png": "/craco-portfolio/static/media/mobile-checkout.aae3021cd861943e83e5.png",
+    "main.js": "/craco-portfolio/static/js/main.923216d6.js",
     "static/media/about-bg.jpg": "/craco-portfolio/static/media/about-bg.48b883584afd47c3cd0f.jpg",
     "static/media/myOwn1.jpg": "/craco-portfolio/static/media/myOwn1.706abe44819f660775b5.jpg",
+    "static/media/mobile-checkout.jpg": "/craco-portfolio/static/media/mobile-checkout.40d925c000fa87f04e4b.jpg",
     "static/media/sycom2.jpg": "/craco-portfolio/static/media/sycom2.41770f4e6b87133ec3a3.jpg",
     "static/media/music-page.jpg": "/craco-portfolio/static/media/music-page.acf36d1d15918b480b20.jpg",
     "static/media/video-page.jpg": "/craco-portfolio/static/media/video-page.97921899e0d56c954835.jpg",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.41a4f800.css",
-    "static/js/main.539391fd.js"
+    "static/js/main.923216d6.js"
   ]
 }
