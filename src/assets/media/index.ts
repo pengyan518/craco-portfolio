@@ -7,6 +7,7 @@
 
 import img0 from './9c.jpg'
 import img1 from './mobile-checkout.png'
+import img2 from './myOwn1.jpg'
 import theater1 from './wn.jpg'
 import theater2 from './ourStory.jpg'
 import sycom from './sycom2.jpg'
@@ -24,6 +25,16 @@ import videoPage from './video-page.jpg'
 // export const mediaByIndex = index => media[index % media.length]
 
 export const theaters = [
+  {
+    id: '0',
+    src: img2,
+    caption: 'My Own SaaS Project(Not Yet Released)',
+    // url: 'https://tickets.shenyun.com/shenyun-2026-new-york',
+    description: 'Next.js, Tailwind CSS, FastAPI, PostgreSQL, Docker',
+    label: 'Technology stack',
+    videoEmbed:
+      '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/0aLIXvRbz8A?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+  },
   {
     id: '0',
     src: img1,
