@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/craco-portfolio/static/css/main.41a4f800.css",
-    "main.js": "/craco-portfolio/static/js/main.923216d6.js",
+    "main.js": "/craco-portfolio/static/js/main.4efb7c74.js",
     "static/media/about-bg.jpg": "/craco-portfolio/static/media/about-bg.48b883584afd47c3cd0f.jpg",
     "static/media/myOwn1.jpg": "/craco-portfolio/static/media/myOwn1.706abe44819f660775b5.jpg",
     "static/media/mobile-checkout.jpg": "/craco-portfolio/static/media/mobile-checkout.40d925c000fa87f04e4b.jpg",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.41a4f800.css",
-    "static/js/main.923216d6.js"
+    "static/js/main.4efb7c74.js"
   ]
 }
