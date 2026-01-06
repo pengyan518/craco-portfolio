@@ -12,7 +12,7 @@ import theater1 from './wn.jpg'
 import theater2 from './ourStory.jpg'
 import sycom from './sycom2.jpg'
 import ntsy from './ntsy.jpg'
-import shenyunorg from './shenyunorg.jpg'
+// import shenyunorg from './shenyunorg.jpg'
 import mediaLibrary from './media-library.jpg'
 import blscDesktop from './blsc-desktop.jpg'
 import sc from './sc.jpg'
@@ -36,7 +36,7 @@ export const theaters = [
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/0aLIXvRbz8A?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '0',
+    id: '1',
     src: img1,
     caption: 'Mobile Checkout Page',
     url: 'https://tickets.shenyun.com/shenyun-2026-new-york',
@@ -45,7 +45,7 @@ export const theaters = [
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/4seoE8ICgKo?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '3',
+    id: '2',
     src: sycom,
     caption: 'Shen Yun Homepage',
     description: 'React, Redux, Tailwind CSS, Styled-Components',
@@ -54,7 +54,7 @@ export const theaters = [
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/fQCdr6gYdv0?autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '10',
+    id: '3',
     src: ntsy,
     caption: 'New to Shen Yun Page',
     description: 'React, Redux, Tailwind CSS, Styled-Components',
@@ -63,7 +63,7 @@ export const theaters = [
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/sAMbz8aSGsk?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '11',
+    id: '4',
     src: music,
     caption: 'Shen Yun Music Page',
     description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
@@ -72,7 +72,7 @@ export const theaters = [
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/WluJ75xg_Ac?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '12',
+    id: '5',
     src: videoPage,
     caption: 'Shen Yun Videos Page',
     description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
@@ -81,7 +81,7 @@ export const theaters = [
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/yzIvbGq4L94?&autoplay=1&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   // {
-  //   id: '4',
+  //   id: '6',
   //   src: shenyunorg,
   //   caption: 'Shen Yun Company Homepage',
   //   description: 'Webpack, Gulp, jQuery, Sass',
@@ -90,7 +90,7 @@ export const theaters = [
   //     '<div style="padding:68.61% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726478996?h=3bc2867e01&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording at org"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   // },
   {
-    id: '5',
+    id: '6',
     src: mediaLibrary,
     caption: 'Media Library Homepage',
     description: 'React, Redux, Tailwind CSS, Styled-Components',
@@ -98,7 +98,7 @@ export const theaters = [
       '<div style="padding:75.31% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726532589?h=28ae9710b8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording MediaLibrary"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
   {
-    id: '0',
+    id: '7',
     src: img0,
     caption: 'Shen Yun 9 Characteristics Page',
     url: 'https://www.shenyun.org/classical-chinese-dance-music-costumes-singers-and-more',
@@ -107,7 +107,7 @@ export const theaters = [
       '<div style="padding:65.34% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726310516?h=59cc4dabeb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording of Nine Characteristics"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
   {
-    id: '1',
+    id: '8',
     src: theater1,
     caption: 'Shen Yun Whats New Page',
     description: 'React, Redux, Styled-Components',
@@ -116,7 +116,7 @@ export const theaters = [
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/g6KQbe8S0XY?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '2',
+    id: '9',
     src: theater2,
     caption: 'Shen Yun Our Story Page',
     description: 'React, Postcss, Styled-Components',
@@ -124,9 +124,8 @@ export const theaters = [
     videoEmbed:
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/3aXdv7tfcEU?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
-
   {
-    id: '6',
+    id: '10',
     src: blscDesktop,
     caption: 'Ticketing Box Seating Chart(desktop)',
     url: 'https://tickets.shenyun.com/event/schedule/shenyun-2025-san-jose-2024-12-26-7pm/sc/1',
@@ -135,7 +134,7 @@ export const theaters = [
       '<div style="padding:61.91% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/726562666?h=a51c36819a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording 2022-07-03 at 202425"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>',
   },
   {
-    id: '7',
+    id: '11',
     src: blscMobile,
     caption: 'Ticketing Box Seating Chart(mobile)',
     url: 'https://tickets.shenyun.com/event/schedule/shenyun-2025-san-francisco-2025-1-2-7pm/sc/1',
@@ -144,7 +143,7 @@ export const theaters = [
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/ZfizI3Ff3KQ?&autoplay=1" title="Screen Recording seating chart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '8',
+    id: '12',
     src: sc,
     caption: 'Ticketing Box Seating Chart by Canvas(desktop)',
     url: 'https://tickets.shenyun.com/event/schedule/shenyun-2025-san-jose-2024-12-26-7pm/',
@@ -153,7 +152,7 @@ export const theaters = [
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/xOssXAfWk3g?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
   {
-    id: '9',
+    id: '13',
     src: ccd,
     caption: 'Shen Yun Classical Chinese Dance Page(Renewed)',
     description: 'React, Redux, MUI, Tailwind CSS, Styled-Components',
@@ -162,4 +161,16 @@ export const theaters = [
       '<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/D-mHzmCBZs8?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
   },
 ]
+
+// 开发时验证 ID 唯一性
+if (process.env.NODE_ENV === 'development') {
+  const ids = theaters.map(item => item.id)
+  const uniqueIds = new Set(ids)
+  if (ids.length !== uniqueIds.size) {
+    const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index)
+    // eslint-disable-next-line no-console
+    console.error('❌ 发现重复的 theater ID:', duplicates)
+    throw new Error(`theaters 数组中存在重复的 ID: ${duplicates.join(', ')}`)
+  }
+}
 export const theatersByIndex = index => theaters[index % theaters.length]
